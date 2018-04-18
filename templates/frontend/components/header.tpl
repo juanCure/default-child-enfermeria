@@ -50,19 +50,27 @@
            <li><a href="#">Estructura</a></li>
            <li><a href="#">Contacto</a></li>
         </ul> -->
+        {* Primary site navigation *}
+				{if $currentContext}
+					<nav class="pkp_navigation_primary_row" aria-label="{translate|escape key="common.navigation.site"}">
+						<div class="pkp_navigation_primary_wrapper">
+							{* Primary navigation menu for current application *}
+							{load_menu name="primary" id="navigationPrimary" ulClass="pkp_navigation_primary"}
+
+						</div>
+					</nav>
+				{/if}
         <div id="layoutdims">
            <span id="publicacion">Publicación de la Escuela Nacional de Enfermería y Obstetricia de la UNAM</span>
-           <form method="post" id="queryContainer" action="#">
-              <img src="img/search-icon.png" alt="">
-              <input type="text" name="query" id="query" placeholder="Buscar">
-           </form>
+           {* Search form *}
+					 {include file="frontend/components/searchForm_simple.tpl"}
            <div id="lang">
               <a class="lang" id="lang_es" href="#"><img src="img/lang_es.png" alt=""></a><a class="lang" id="lang_en" href="#"><img src="img/lang_en.png" alt=""></a>
            </div>
            <span id="isbn"> ISSN 2395-8421</span>
         
         </div>
-     	</div>
+     	</div> <!-- headerElements -->
 			<div class="pkp_head_wrapper">
 
 				<div class="pkp_site_name_wrapper">
@@ -100,18 +108,6 @@
 					{/if}
 				</div>
 
-				{* Primary site navigation *}
-				{if $currentContext}
-					<nav class="pkp_navigation_primary_row" aria-label="{translate|escape key="common.navigation.site"}">
-						<div class="pkp_navigation_primary_wrapper">
-							{* Primary navigation menu for current application *}
-							{load_menu name="primary" id="navigationPrimary" ulClass="pkp_navigation_primary"}
-
-							{* Search form *}
-							{include file="frontend/components/searchForm_simple.tpl"}
-						</div>
-					</nav>
-				{/if}
 				<nav class="pkp_navigation_user_wrapper" id="navigationUserWrapper" aria-label="{translate|escape key="common.navigation.user"}">
 					{load_menu name="user" id="navigationUser" ulClass="pkp_navigation_user" liClass="profile"}
 				</nav>

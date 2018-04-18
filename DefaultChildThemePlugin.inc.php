@@ -25,9 +25,9 @@ class DefaultChildThemePlugin extends ThemePlugin {
 		$this->setParent('defaultthemeplugin');
 		$this->modifyStyle('stylesheet', array('addLess' => array('styles/remove-borders.less')));
 		// Agregando el archivo main.css
-		$this->addStyle('main', 'styles/main.css');
+		// $this->addStyle('main', 'styles/main.css');
 		//Agregando el archivo font.css
-		$this->addStyle('fonts', 'styles/fonts.css');
+		// $this->addStyle('fonts', 'styles/fonts.css');
 	}
 
 	/**
