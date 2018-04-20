@@ -34,83 +34,40 @@
 		{* Header *}
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
 			<video autoplay muted loop id="myVideo">
-        <source src="{$baseUrl}/plugins/themes/default-child/video/video.mp4" type="video/mp4">
-     	</video>
-     	<div class="_pattern-overlay"></div>
-     	<div id="headerElements">
-        <h1>Enfermería</h1>
-        <h2>universitaria</h2>
-        <img id="unam" src="{$baseUrl}/plugins/themes/default-child/images/unam.png" alt="">
-        <img id="eneo" src="{$baseUrl}/plugins/themes/default-child/images/eneo.png" alt="">
-        <!-- <ul>
-           <li><a href="#" class="active">Inicio</a></li>
-           <li><a href="#">Sobre la revista</a></li>
-           <li><a href="#">Dierctorio</a></li>
-           <li><a href="#">Árbitros</a></li>
-           <li><a href="#">Estructura</a></li>
-           <li><a href="#">Contacto</a></li>
-        </ul> -->
-        {* Primary site navigation *}
+				<source src="{$baseUrl}/plugins/themes/default-child/video/video.mp4" type="video/mp4">
+			</video>
+      <div class="_pattern-overlay"></div>
+			<div class="pkp_head_wrapper">
+
+				<div id="headerElements" class="pkp_site_name_wrapper">
+					<h1>Enfermería</h1>
+          <h2>universitaria</h2>
+          <img id="unam" src="{$baseUrl}/plugins/themes/default-child/images/unam.png" alt="">
+          <img id="eneo" src="{$baseUrl}/plugins/themes/default-child/images/eneo.png" alt="">
+				</div><!-- .pkp_site_name_wrapper-->
+
+				{* Primary site navigation *}
 				{if $currentContext}
 					<nav class="pkp_navigation_primary_row" aria-label="{translate|escape key="common.navigation.site"}">
 						<div class="pkp_navigation_primary_wrapper">
 							{* Primary navigation menu for current application *}
 							{load_menu name="primary" id="navigationPrimary" ulClass="pkp_navigation_primary"}
 
+							{* Search form *}
+							{include file="frontend/components/searchForm_simple.tpl"}
 						</div>
 					</nav>
 				{/if}
-        <div id="layoutdims">
-           <span id="publicacion">Publicación de la Escuela Nacional de Enfermería y Obstetricia de la UNAM</span>
-           {* Search form *}
-					 {include file="frontend/components/searchForm_simple.tpl"}
-           <div id="lang">
-              <a class="lang" id="lang_es" href="#"><img src="img/lang_es.png" alt=""></a><a class="lang" id="lang_en" href="#"><img src="img/lang_en.png" alt=""></a>
-           </div>
-           <span id="isbn"> ISSN 2395-8421</span>
-        
-        </div>
-     	</div> <!-- headerElements -->
-			<div class="pkp_head_wrapper">
-
-				<div class="pkp_site_name_wrapper">
-					{* Logo or site title. Only use <h1> heading on the homepage.
-					   Otherwise that should go to the page title. *}
-					{if $requestedOp == 'index'}
-						<h1 class="pkp_site_name">
-					{else}
-						<div class="pkp_site_name">
-					{/if}
-						{if $currentContext && $multipleContexts}
-							{url|assign:"homeUrl" journal="index" router=$smarty.const.ROUTE_PAGE}
-						{else}
-							{url|assign:"homeUrl" page="index" router=$smarty.const.ROUTE_PAGE}
-						{/if}
-						{if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
-							<a href="{$homeUrl}" class="is_img">
-								<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if} />
-							</a>
-						{elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_string($displayPageHeaderTitle)}
-							<a href="{$homeUrl}" class="is_text">{$displayPageHeaderTitle}</a>
-						{elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_array($displayPageHeaderTitle)}
-							<a href="{$homeUrl}" class="is_img">
-								<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" alt="{$displayPageHeaderTitle.altText|escape}" width="{$displayPageHeaderTitle.width|escape}" height="{$displayPageHeaderTitle.height|escape}" />
-							</a>
-						{else}
-							<a href="{$homeUrl}" class="is_img">
-								<img src="{$baseUrl}/templates/images/structure/logo.png" alt="{$applicationName|escape}" title="{$applicationName|escape}" width="180" height="90" />
-							</a>
-						{/if}
-					{if $requestedOp == 'index'}
-						</h1>
-					{else}
-						</div>
-					{/if}
-				</div>
-
 				<nav class="pkp_navigation_user_wrapper" id="navigationUserWrapper" aria-label="{translate|escape key="common.navigation.user"}">
 					{load_menu name="user" id="navigationUser" ulClass="pkp_navigation_user" liClass="profile"}
 				</nav>
+				<div id="layoutdims">
+					<span id="publicacion">Publicación de la Escuela Nacional de Enfermería y Obstetricia de la UNAM</span>
+         	<div id="lang">
+            <a class="lang" id="lang_es" href="#"><img src="{$baseUrl}/plugins/themes/default-child/images/lang_es.png" alt=""></a><a class="lang" id="lang_en" href="#"><img src="{$baseUrl}/plugins/themes/default-child/images/lang_en.png" alt=""></a>
+         	</div>
+         	<span id="isbn"> ISSN 2395-8421</span>
+        </div>
 			</div><!-- .pkp_head_wrapper -->
 		</header><!-- .pkp_structure_head -->
 
@@ -119,4 +76,21 @@
 			{assign var=hasSidebar value=0}
 		{/if}
 		<div class="pkp_structure_content{if $hasSidebar} has_sidebar{/if}">
+			<div id="sidebar_right">
+				<!-- Column 2 start -->
+        <h3>Menú principal</h3>
+        <ul>
+           <li><a href="#">Objetivo y enlace</a></li>
+           <li><a href="#">Políticas y gestión editorial</a></li>
+           <li><a href="#">Normas para los autores</a></li>
+           <li><a href="#">Secciones de la revista</a></li>
+           <li><a href="#">Envíos de artículos</a></li>
+           <li><a href="#">Código de ética</a></li>
+           <li><a href="#">Política de revisión</a></li>
+        </ul>
+        <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
+        <!-- <h3>Miembro de:</h3>
+        <figure> <img src="img/wame.png"> <img src="img/amerbacpng.png" alt=""> <img src="img/ease.png" alt=""> </figure> -->
+        <!-- Column 2 end -->
+			</div>
 			<div id="pkp_content_main" class="pkp_structure_main" role="main">
