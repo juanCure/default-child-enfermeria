@@ -89,8 +89,25 @@
            <li><a href="#">Política de revisión</a></li>
         </ul>
         <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
-        <!-- <h3>Miembro de:</h3>
-        <figure> <img src="img/wame.png"> <img src="img/amerbacpng.png" alt=""> <img src="img/ease.png" alt=""> </figure> -->
+        <h3>Indexada en:</h3>
+        <div id="content_indexada">
+        	<div class="indexadores">
+        		<img src="{$baseUrl}/plugins/themes/default-child/images/Conacyt.png">
+        		<a href="">Conacyt</a>
+        	</div>
+        	<div class="indexadores">
+        		<img src="{$baseUrl}/plugins/themes/default-child/images/latindex.jpg">
+        		<a href="">Latindex</a>
+        	</div>
+        	<div class="indexadores">
+        		<img src="{$baseUrl}/plugins/themes/default-child/images/scielo.png">
+        		<a href="">Scielo</a>
+        	</div>
+        	<div class="indexadores">
+        		<img src="{$baseUrl}/plugins/themes/default-child/images/sicenciedirect.png">
+        		<a href="">Sicencie Direct</a>
+        	</div>
+        </div>
         <!-- Column 2 end -->
 			</div>
 			<div id="pkp_content_main" class="pkp_structure_main" role="main">
