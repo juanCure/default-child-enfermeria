@@ -42,6 +42,8 @@
 				<div id="headerElements" class="pkp_site_name_wrapper">
 					<h1>Enfermería</h1>
           <h2>universitaria</h2>
+          <img id="unam" src="{$baseUrl}/plugins/themes/default-child/images/unam.png" alt="">
+          <img id="eneo" src="{$baseUrl}/plugins/themes/default-child/images/eneo.png" alt="">
 				</div><!-- .pkp_site_name_wrapper-->
 
 				{* Primary site navigation *}
