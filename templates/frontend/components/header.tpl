@@ -42,8 +42,6 @@
 				<div id="headerElements" class="pkp_site_name_wrapper">
 					<h1>Enfermería</h1>
           <h2>universitaria</h2>
-          <img id="unam" src="{$baseUrl}/plugins/themes/default-child/images/unam.png" alt="">
-          <img id="eneo" src="{$baseUrl}/plugins/themes/default-child/images/eneo.png" alt="">
 				</div><!-- .pkp_site_name_wrapper-->
 
 				{* Primary site navigation *}
@@ -80,32 +78,35 @@
 				<!-- Column 2 start -->
         <h3>Menú principal</h3>
         <ul>
-           <li><a href="#">Objetivo y enlace</a></li>
-           <li><a href="#">Políticas y gestión editorial</a></li>
-           <li><a href="#">Normas para los autores</a></li>
-           <li><a href="#">Secciones de la revista</a></li>
-           <li><a href="#">Envíos de artículos</a></li>
-           <li><a href="#">Código de ética</a></li>
-           <li><a href="#">Política de revisión</a></li>
+           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/objetivoyalcance">Objetivo y alcance</a></li>
+           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/politicas">Políticas editoriales</a></li>
+           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/envios">Normas para los autores</a></li>
+           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/secciones">Secciones de la revista</a></li>
+           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/about/submissions">Envíos de artículos</a></li>
+           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/codigoetica">Código de ética</a></li>
         </ul>
         <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
-        <h3>Indexada en:</h3>
+        <h3>Índices</h3>
         <div id="content_indexada">
         	<div class="indexadores">
-        		<img src="{$baseUrl}/plugins/themes/default-child/images/Conacyt.png">
-        		<a href="">Conacyt</a>
         	</div>
         	<div class="indexadores">
-        		<img src="{$baseUrl}/plugins/themes/default-child/images/latindex.jpg">
-        		<a href="">Latindex</a>
         	</div>
         	<div class="indexadores">
-        		<img src="{$baseUrl}/plugins/themes/default-child/images/scielo.png">
-        		<a href="">Scielo</a>
         	</div>
         	<div class="indexadores">
-        		<img src="{$baseUrl}/plugins/themes/default-child/images/sicenciedirect.png">
-        		<a href="">Sicencie Direct</a>
+        	</div>
+        	<div class="indexadores">
+        	</div>
+        	<div class="indexadores">
+        	</div>
+        	<div class="indexadores">
+        	</div>
+        	<div class="indexadores">
+        	</div>
+        	<div class="indexadores">
+        	</div>
+        	<div class="indexadores">
         	</div>
         </div>
         <!-- Column 2 end -->
