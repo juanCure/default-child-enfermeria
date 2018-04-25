@@ -23,6 +23,10 @@
 {if !$pageTitleTranslated}{translate|assign:"pageTitleTranslated" key=$pageTitle}{/if}
 {include file="frontend/components/headerHead.tpl"}
 <body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}{if $showingLogo} has_site_logo{/if}" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
+	<video autoplay muted loop id="myVideo">
+		<source src="{$baseUrl}/plugins/themes/default-child/video/video.mp4" type="video/mp4">
+	</video>
+  <div class="_pattern-overlay"></div>
 
 	<div class="cmp_skip_to_content">
 		<a href="#pkp_content_main">{translate key="navigation.skip.main"}</a>
@@ -33,10 +37,6 @@
 
 		{* Header *}
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
-			<video autoplay muted loop id="myVideo">
-				<source src="{$baseUrl}/plugins/themes/default-child/video/video.mp4" type="video/mp4">
-			</video>
-      <div class="_pattern-overlay"></div>
 			<div class="pkp_head_wrapper">
 
 				<div id="headerElements" class="pkp_site_name_wrapper">
