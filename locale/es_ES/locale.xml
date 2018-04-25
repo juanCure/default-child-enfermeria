@@ -14,4 +14,8 @@
 <locale name="es_ES" full_name="Español (España)">
 	<message key="plugins.themes.default-child.name">Tema para Enfermeria Universitaria</message>
 	<message key="plugins.themes.default-child.description">En este tema se implementa el diseño propuesto para la revista de Enfermería Universitaria UNAM.</message>
+
+  <!-- Navegación -->
+  <message key="plugins.themes.default-child.navigation.current">Número actual</message>
+  <message key="plugins.themes.default-child.navigation.archives">Números anteriores</message>
 </locale>

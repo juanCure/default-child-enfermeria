@@ -23,12 +23,12 @@
 				<div class="pkp_block">
 					<div id="numero_actual" class="botones_derecha">
 						<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="current"}">
-							{translate key="navigation.current"}
+							{translate key="plugins.themes.default-child.navigation.current"}
 						</a>
 					</div>
 					<div id="numeros_anteriores" class="botones_derecha">
 						<a href="{url router=$smarty.const.ROUTE_PAGE page="issue" op="archive"}">
-							{translate key="navigation.archives"}
+							{translate key="plugins.themes.default-child.navigation.archives"}
 						</a>
 					</div>
 					<div id="avance_linea" class="botones_derecha">
