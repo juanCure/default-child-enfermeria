@@ -36,22 +36,10 @@
 					</div>
 				</div>
 				{* Contenido que sólo se muestra estando en la vista article *}
+				{if $requestedPage == 'article'}
 				<div class="pkp_block">
 					<div class="new_entry_details">
-						{* Article/Issue cover image
-						{if $article->getLocalizedCoverImage() || $issue->getLocalizedCoverImage()}
-							<div class="item cover_image">
-								<div class="sub_item">
-									{if $article->getLocalizedCoverImage()}
-										<img src="{$article->getLocalizedCoverImageUrl()|escape}"{if $article->getLocalizedCoverImageAltText()} alt="{$article->getLocalizedCoverImageAltText()|escape}"{/if}>
-									{else}
-										<a href="{url page="issue" op="view" path=$issue->getBestIssueId()}">
-											<img src="{$issue->getLocalizedCoverImageUrl()|escape}"{if $issue->getLocalizedCoverImageAltText()} alt="{$issue->getLocalizedCoverImageAltText()|escape}"{/if}>
-										</a>
-									{/if}
-								</div>
-							</div>
-						{/if}*}
+
 						{* Article Galleys *}
 						{if $primaryGalleys}
 							<div class="item galleys">
@@ -64,6 +52,7 @@
 								</ul>
 							</div>
 						{/if}
+
 						{if $supplementaryGalleys}
 							<div class="item galleys">
 								<ul class="value supplementary_galleys_links">
@@ -75,6 +64,7 @@
 								</ul>
 							</div>
 						{/if}
+
 						{if $article->getDatePublished()}
 							<div class="item published">
 								<div class="label">
@@ -85,6 +75,7 @@
 								</div>
 							</div>
 						{/if}
+						
 						{* How to cite *}
 						{if $citation}
 							<div class="item citation">
@@ -158,6 +149,7 @@
 						{/if}	
 					</div>
 				</div>
+				{/if}
 				{$sidebarCode}
 			</div><!-- pkp_sidebar.left -->
 		{/if}
