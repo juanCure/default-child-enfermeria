@@ -90,7 +90,17 @@
         <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
         <h3>Índices</h3>
         <div id="content_indexada">
-        	<div class="indexadores">
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<a href="#" class="indexadores"></a>
+        	<!-- <div class="indexadores">
         	</div>
         	<div class="indexadores">
         	</div>
@@ -109,7 +119,7 @@
         	<div class="indexadores">
         	</div>
         	<div class="indexadores">
-        	</div>
+        	</div> -->
         </div>
         <!-- Column 2 end -->
 			</div>
