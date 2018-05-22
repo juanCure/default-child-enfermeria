@@ -37,8 +37,8 @@
 				</div>
 				{* Contenido que sólo se muestra estando en la vista article *}
 				{if $requestedPage == 'article'}
-				<div class="pkp_block">
-					<div class="new_entry_details">
+				<div class="obj_article_details">
+					<div class="entry_details">
 
 						{* Article Galleys *}
 						{if $primaryGalleys}
