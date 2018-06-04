@@ -63,7 +63,12 @@
 		</span>
 	{/if}
 
-	{$galley->getGalleyLabel()|escape}
+	{assign var=galleyLabel value=$galley->getGalleyLabel()|escape}
+	{if $galley->getLocale() == "es_ES"}
+		{$galleyLabel|replace:'Español (España)':'Español'}
+	{elseif $galley->getLocale() == "pt_BR"}
+		{$galleyLabel|replace:'Português (Brasil)':'Português'}
+	{/if}
 
 	{if $restricted && $purchaseFee && $purchaseCurrency}
 		<span class="purchase_cost">
