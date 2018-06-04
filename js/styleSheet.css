@@ -1,0 +1,1084 @@
+
+// 
+@import url("http://www.eye-eye-eye.com.mx/content/testing/unam/eneo/external.css") !important;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+ 
+ 
+* {
+font-family: 'Raleway', sans-serif;
+ 
+}
+ 
+ 
+header.pkp_structure_head {
+    background: #0e374af2 !important;
+    height: 180px;
+    z-index:2
+}
+ 
+ 
+ 
+.pkp_structure_content{
+    background: #fdfeffb5 !important;
+
+     
+}
+ 
+ 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    background-color: #fff !important;
+    min-width: 600px;
+    font-size: 90%;
+    overflow-x: hidden;
+}
+ 
+a {
+    display: inline-block;
+    color: #0d1038;
+    text-decoration: none;
+    padding: 1%;
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+p {
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+.col2 ul li:hover {
+    color: #fff;
+    background: #369;
+    text-decoration: none;
+}
+.col2 ul li a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+.col2 ul li a:hover {
+    color: #fff;
+}
+.col2 ul {
+    width: 70%;
+    padding-left: 11%;
+    margin-left: 11%;
+    margin-left: 11%;
+}
+.col2 ul li {
+    background: #9e9e9e1c;
+    margin-top: 2%;
+    border-bottom: solid 1px #cccad8;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+h2, h3 {
+    margin: .8em 0 .2em 0;
+    padding: 0;
+    z-index: 2;
+    color: #0d1038;
+        text-shadow: 0px 1px 0px #119bec9e
+    ;
+}
+h2, h3 {
+    text-shadow: 0px 1px 0px #119bec9e
+}
+ 
+h1 {
+    position: absolute;
+    color: transparent !important;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #ffc107;
+    font-size: 5em;
+    left: 50%;
+    top: -550%;
+    transform: translate(-50%, 0%);
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+_h1 {
+    color: #000;
+}
+}
+header h2 {
+    position:  relative;
+    color: #74c8f2;
+    font-size: 30px;
+    letter-spacing: 15px;
+    font-style: italic;
+    left: 15%;
+    top: 52%;
+    transform: translate(25%, -35%);
+}
+#eneo {
+    position: absolute;
+    right: 4%;
+    transform: translateY(-100%);
+    top: 26px;
+    opacity: .6;
+}
+#unam {
+    position: absolute;
+    left: 2%;
+    transform: translateY(-100%);
+    height: 71px;
+    top: 19px;
+    opacity: .8;
+}
+p {
+    margin: .4em 0 .8em 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px
+}
+img {
+ //margin:10px 0 5px;
+}
+#ads img {
+    display: block;
+    padding-top: 10px;
+}
+/* Header styles */
+#header {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#header {
+    border-bottom: 1px solid #000;
+}
+#header p, #header h1, #header h2 {
+    padding: .4em 25px 0 15px;
+    margin: 0;
+}
+#headerMenuContainer {
+    width: 100%;
+    height: 1px;
+}
+#header ul {
+    clear: left;
+    float: left;
+    width: 60%;
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(56%, 1%);
+}
+#header ul li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#header ul li a {
+    display: block;
+    float: left;
+    margin: 0 0 0 1px;
+    padding: 3px 10px;
+    text-align: center;
+    background: #eee;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    line-height: 1.3em;
+}
+#header ul li a:hover {
+    background: #081c2f;
+    color: #fff;
+}
+#header ul li a.active, #header ul li a.active:hover {
+    color: #fff;
+    background: #0d1038;
+    font-weight: bold;
+}
+#header ul li a span {
+    display: block;
+}
+/* 'widths' sub menu */ 
+#layoutdims {
+    clear: both;
+    background: #b5c9da;
+    border-top: 4px solid #0d1038;
+    margin: 0;
+    padding: 6px 15px !important;
+    text-align: right;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 10px 5px 0px rgba(0, 0, 0, 0.43);
+    margin-top: 0;
+}
+#lang {
+    position: absolute;
+    right: 111px;
+    bottom: -2px;
+    width: 100px;
+    display:none;
+}
+#lang a {
+    margin-right: 26px;
+}
+#isbn {
+    color: #3b82bf
+}
+ 
+ 
+/* Footer styles */
+#footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #0d1038;
+}
+#footer p {
+    padding: 10px;
+    margin: 0;
+}
+/*******/
+
+#publicacion {
+    position: absolute;
+    width: 600px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 12px;
+    color: #156082;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    display:none;
+}
+#queryContainer * {
+    margin-top: -33px;
+}
+.lang img {
+}
+.col1 p {
+    float: right;
+}
+.col1 p {
+    float: right;
+    margin-right: 4%;/* text-align:justify; */
+}
+#cover {
+    float: left;
+    display: block;
+    margin: 4%;
+    margin-top: -1%;
+    border: solid 1px #6cbbe3;
+    -webkit-box-shadow: 2px 6px 29px -3px rgba(166,166,166,1);
+    -moz-box-shadow: 2px 6px 29px -3px rgba(166,166,166,1);
+    box-shadow: 2px 6px 29px -3px rgba(166,166,166,1);
+}
+ 
+#media {
+    position: relative;
+    left: -20px
+}
+#media li {
+    list-style: none;
+    display: inline;
+    margin-right: 10%
+}
+#media img {
+    width: 25px;
+}
+#cc {
+    border-top: solid 1px #7a7b8a;
+    padding-top: 10px;
+    width: 180px;
+    clear: both;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.grid {
+    width: 100%;
+    position: relative;
+}
+#myVideo {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    opacity: .5;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background: white;
+}
+._pattern-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    bottom: 0;
+    background-image: url(../img/overlay.png);
+    z-index:1 right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display:none;
+}
+#headerElements {
+    position: relative;
+    z-index: 2;
+    bottom: -3px;
+}
+#buttons1 {
+    list-style: none;
+}
+#buttons1 button {
+    background: #9e9e9e1c;
+    margin-top: 2%;
+    border-bottom: solid 1px #cccad8;
+    padding-top: 3%;
+}
+/* #Wet Asphalt Flat Button
+==================================================*/
+ 
+ 
+.wet-asphalt-flat-button {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #177196;
+    border: 0;
+    border-bottom: 2px solid #263849;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #263849;
+    box-shadow: inset 0 -2px #263849;/* right: -50px; */
+}
+.wet-asphalt-flat-button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* #Wet Asphalt Flat Button 2
+==================================================*/
+ 
+ 
+.wet-asphalt-flat-button2 {
+    position: relative;
+    vertical-align: top;
+    width: 70%;
+    height: 40px;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    padding-right: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #5589a2;
+    border: 0;
+    border-bottom: 2px solid #263849;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #263849;
+    box-shadow: inset 0 -2px #263849;
+    right: -50px;
+}
+.wet-asphalt-flat-button2:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+ 
+ 
+.field {
+    position: relative;
+    right: -70px
+}
+.field input {
+    margin-bottom: 10px;
+}
+#footer {
+    background: #0d1038c7;
+    color: white;
+    padding: 2% 1%;
+    border-top: solid 2px white;
+}
+#innerFooter {
+    width: 100%;
+    min-height: 100px;
+ //background:red;
+    display: table;
+    position: relative;
+    bottom: 0;
+    left: -18px
+}
+#footer p {
+    font-size: 1em;
+    text-align: center;
+}
+#indexedList li {
+    background: #ffffff;
+    display: table;
+    width: 83%;
+    height: 70px;
+}
+#indexedList a {
+//outline:solid blue 1px;
+    display: table-cell;
+    width: 60%;
+    font-size: 12px;
+    vertical-align: middle;
+}
+#indexedList a:hover {
+    color: #3f6284;
+}
+#indexedList img {
+    /* outline:solid 1px blue; */
+    width: 70px;
+    height: 70px;
+    position: relative;
+    /* background: red; */
+    bottom: 3px !important;
+}
+#cloud {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%
+}
+/*numero actual*/
+ 
+ 
+.num_actual h4, .num_anteriores h4 {
+    color: #4b9ec5;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    border-bottom: solid 1px #0a74963b;
+    font-size: 18px;
+}
+.num_actual p {
+    margin-left: 5%;
+    color: #2b434a;
+    font-size: 14px;
+    display: block;
+back
+}
+.seccion_articulo p, .subsec_autor {
+    color: #2b434a;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    width: 90%;
+    clear: both;
+}
+.subsec_autor {
+ //color:#0d1038;
+}
+.subsec_clave {
+    color: #2b434a;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    width: 90%;
+    clear: both;
+    margin-left: 5%;
+    border-bottom: solid 2px #9e9d9d;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.pclave {
+    font-weight: bold;
+}
+h5 {
+    margin-left: 8%;
+    font-size: 15px;
+    color: gray;
+    margin-top: 40px;
+}
+.col1 p.secc_art_p {
+    float: right;
+    margin-right: 2%;/* text-align:justify; */
+}
+.subsec_autor, .subsec_biblio {
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+}
+ 
+ 
+.subsec_biblio{
+    margin-left: 8%;
+        color: #2b434a;
+}
+.secc_art_p {
+    margin-left: 7%;
+}
+.span_institucion {
+    display: block;
+    clear: both;
+    font-weight: lighter;
+}
+.seccion_articulo h2 {
+    border: none;
+}
+.num_actual .articulo {
+    font-weight: bold;
+    margin-left: 12%;
+    cursor: pointer;
+}
+.formats {
+//border:solid 1px #5589a23b;
+    display: table;
+    width: 71%;
+    height: auto;
+    margin-left: 10%;
+    padding: 1%;
+}
+.formats li {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    width: 60px;
+    background: #e7f2fb;
+    text-align: right;
+    padding: 1%;
+    font-size: 12px;
+    font-weight: bold;
+    background-image: url(../img/file.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    color: #2d7b94;
+    border-radius: 5%;
+    border: solid 1px #8dc5d4;
+    line-height: 30px;
+    margin: .5%;
+    cursor: pointer;
+}
+.formats .pdf:before {
+    content: "PDF";
+}
+.formats .epub:before {
+    content: "EPUB";
+}
+.formats .xml:before {
+    content: "XML";
+}
+.formats .doc:before {
+    content: "DOC";
+}
+.formats .ppt:before {
+    content: "PPT";
+}
+.formats .ppt:before {
+    content: "HTML";
+}
+.autor {
+    color: #9E9E9E;
+    margin-left: 12%;
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 5%;
+    padding-bottom: 1%;
+    border-bottom: solid 1px #dad5d5;
+    width: 100%;
+}
+ 
+ 
+ 
+#quoteContainer p{
+    font-size:12px;
+    width:90%%;
+    padding:5% 12%;
+    background:#c7e5f1
+}
+.styled-select {
+   background: url(../img/select.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+ 
+.styled-select select {
+   background: transparent; 
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+ 
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px; 
+}
+ 
+ 
+ 
+.blue{ background-color: #7ac1de;
+margin-left:3%
+ 
+ }
+.blue select    { color: #ffffff; 
+//background:#4298bb7d;
+}
+ 
+.url{
+ 
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+ 
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+ 
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+ 
+}
+ 
+option{
+    background:#177196;
+    width:60%
+}
+ 
+ 
+ 
+::-moz-selection { background: #00BCD4; }
+::selection { background: #00BCD4; }
+ 
+ 
+.num_anteriores img{
+    float:left;
+ 
+ 
+}
+ 
+ 
+.num_anterior{
+    border-bottom:solid 1px gainsboro;
+    min-height:310px;
+    width:95%;
+    margin-left:1%;
+    margin-bottom:2%;
+ 
+}
+ 
+.num_anteriores p,  .num_anteriores h4{
+    float:right;
+    text-align:left;
+    width:55%;
+    right:0;
+    position:absolute;
+    border:none;
+}
+ 
+.volumen{
+    color:#a9a5a5;
+        float:right;    text-align:left;
+    position:absolute;
+    right:27%
+}
+ 
+ 
+//sobreescritura
+ 
+header.pkp_structure_head{
+    background-color: #E91E63 !important;
+    border-bottom: 1px solid transparent;
+}
+ 
+.pkp_navigation_primary_wrapper ul{
+transform: translateY(32px)
+}
+ 
+#navigationPrimary li{
+    margin-top:5px
+}
+ 
+ 
+#navigationPrimary a{
+    text-shadow:none;
+    background:#0d1038;
+    padding:2px 6px;
+    margin:0;
+    margin-topbottom:20px
+     
+}
+
+
+
+#sidebar_right{
+
+    width:20%;
+    background:#e9e9e9;
+    float:left;
+}
+
+#sidebar_right ul{
+    list-style-type:none;
+}
+
+#sidebar_right li{
+    	background: #9e9e9e1c;
+    	margin-top: 2%;
+    	border-bottom: solid 1px #cccad8;
+    	padding-top: 3%;
+    	padding-left: 5%;
+    	margin-left:-4%;
+}
+
+#navigationUser *{
+    /* display:none; */
+    text-shadow: none !important;
+}
+
+#sidebar_right h3, .pkp_block .title{
+    margin-left:38px;
+    border-bottom:solid 1px;
+    padding-top:10px;
+    padding-bottom:10px;
+        margin: .8em 0 .2em 0;
+    padding: 0;
+    z-index: 2;
+    color: #0d1038;
+        text-shadow: 0px 1px 0px #119bec9e
+}
+
+#cc{
+    width:75%;
+    margin-left:12px !important;
+    
+    display:inline-block;
+}
+
+
+#queryContainer {
+    display: inline;
+    position: absolute;
+    left: 85%
+}
+
+
+.pkp_search {
+margin-top:40px;
+margin-right:100px;
+}
+
+.pkp_search *{
+
+color:#2e3558 !important;
+text-shadow:none;
+font-weight:bold
+
+
+}
+
+
+
+.pkp_block .title{
+   // color:red !important
+}
+
+
+.pkp_block li {
+       	background: #9e9e9e1c;
+	margin-top: 2%;
+	border-bottom: solid 1px #cccad8;
+	padding-top: 3%;
+	padding-left: 5%;
+	margin-left:-4%
+}
+
+
+.pkp_block a {
+padding-left:5% !important
+    
+}
+
+
+#pkp_content_main{
+    width:60%;
+    float:left;
+    background-color:#fffdfe
+}
+
+#sidebar_right h3{
+    margin-left:18%
+}
+
+
+#content_indexada{
+ 
+    width:80%;
+    margin-left:15%;
+  display: inline-block;
+
+}
+
+.indexadores{
+padding-right
+width:100%;
+height:80px;
+display:table-cell;
+
+    color: #0d1038;
+    text-decoration: none;
+    padding: 1%;
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    text-align:right;
+    background:white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  align-self: right;
+
+
+    	margin-top: 2%;
+    	border-bottom: solid 1px #cccad8;
+    	padding-top: 3%;
+    	padding-left: 5%;
+    	margin-left:-4%;
+    background-image:url(assets/enfermeria/bvs.gif);
+    background-size: 30%;
+    background-repeat:no-repeat;
+    background-position:5% center
+}
+
+.indexadores::before{
+    content:'indice';
+    margin-right:5%;
+
+
+}
+
+.indexadores:nth-child(1){
+     background-image:url(assets/enfermeria/Conacyt.png);
+ background-size: 40%;
+}
+
+.indexadores:nth-child(1)::before{
+    content:'Conacyt';
+}
+
+
+.indexadores:nth-child(2){
+     background-size: 35%;
+     background-image:url(assets/enfermeria/bvs.gif);
+
+}
+
+.indexadores:nth-child(2)::before{
+
+    display: block;
+	white-space: pre;
+	content: "Biblioteca\A Virtual \A en Salud ";
+}
+
+
+.indexadores:nth-child(3){
+     background-image:url(assets/enfermeria/cantarida.jpg);
+     display:none 
+
+}
+
+.indexadores:nth-child(3)::before{
+    display: block;
+	white-space: pre;
+	content: "Biblioteca\A Virtual \A en Salud ";
+}
+
+.indexadores:nth-child(4){
+     background-image:url(assets/enfermeria/cantarida.jpg);
+
+}
+
+.indexadores:nth-child(4)::before{
+       display: block;
+	white-space: pre;
+    content:'Biblioteca \A de datos \A CUIDEN';
+}
+
+.indexadores:nth-child(5){
+     background-image:url(assets/enfermeria/scielo.png);
+
+}
+
+.indexadores:nth-child(5)::before{
+    content:'Scielo';
+}
+
+.indexadores:nth-child(6){
+     background-image:url(assets/enfermeria/periodica.png);
+
+}
+
+.indexadores:nth-child(6)::before{
+           display: block;
+	white-space: pre;
+    content:'Ãndice de Revistas \A LatinoamÃ©ricana \A de Ciencias';
+}
+
+.indexadores:nth-child(7){
+     background-image:url(assets/enfermeria/latindex.jpg);
+
+}
+
+.indexadores:nth-child(7)::before{
+    content:'Latindex';
+}
+
+.indexadores:nth-child(8){
+       background-image:url(assets/enfermeria/arbitradas.png);
+
+}
+
+.indexadores:nth-child(8)::before{
+           display: block;
+	white-space: pre;
+    content:'Portal de Revistas \A CientÃ­ficas \Ay Arbitradas\A de la UNAM';
+}
+
+.indexadores:nth-child(9){
+     background-image:url(assets/enfermeria/redalyc.png);
+
+}
+
+.indexadores:nth-child(9)::before{
+    content:'Redalyc';
+}
+
+.indexadores:nth-child(10){
+     background-image:url(assets/enfermeria/sicenciedirect.png);
+
+}
+
+.indexadores:nth-child(10)::before{
+         display: block;
+	white-space: pre;
+    content:'Science Direct';
+}
+
+
+.pkp_navigation_primary ul a {
+
+    background:#1840510a !important;
+}
+
+.pkp_navigation_primary ul a {
+    color:#173f51;
+    background:blue;
+    opacity:1 !important
+}
+
+
+header{
+    position:relative;
+}
+
+
+.page_index_journal{
+   margin-top:-34px
+}
+
+
+
+.current_issue h2{
+font-size: 24px;
+    font-weight: 700;
+
+text-transform: uppercase;
+border-bottom:solid 2px;
+padding-bottom:15px
+
+    }
+
+    .heading{
+border-bottom:solid 1px
+    }
+
+
+.cover img{
+        box-shadow:0 10px 14px rgba(6, 7, 19, 0.47), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.entry_details{
+    float:right;
+    width:20% !important;
+    position:absolute;
+    right:0;
+    top:2%;
+    background:#eaeaea
+}
+
+
+.cover_image{
+    display:none;
+}
+
+.item.issue{
+    display:none; 
+}
+
+.pkp_structure_sidebar.left{
+
+
+  width:20%;
+  background:#e9e9e9;
+  float:right;
+
+}
+
+
+.pkp_structure_sidebar.left ul{
+     list-style:none; 
+}
+
+.pkp_structure_footer::after{
+
+     content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.pkp_structure_sidebar.left a{
+    -ms-word-break: break-all;
+     word-break: break-all;
+
+     // Non standard for webkit
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
