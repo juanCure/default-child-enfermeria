@@ -18,4 +18,5 @@
   <!-- Navigation -->
   <message key="plugins.themes.default-child.navigation.current">Current issue</message>
   <message key="plugins.themes.default-child.navigation.archives">Previous issues</message>
+  <message key="plugins.themes.default-child.navigation.advance.online">Advance online</message>
 </locale>

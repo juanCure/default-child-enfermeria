@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/default-child/locale/pt_BR/locale.xml
+  *
+  * Copyright (c) 2014-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings
+  -->
+
+<locale name="pt_BR" full_name="Português (Brasil)">
+	<message key="plugins.themes.default-child.name">Exemplo de tema infantil</message>
+	<message key="plugins.themes.default-child.description">Este tema é um exemplo de um tema filho do tema padrão.</message>
+
+  <!-- Navigation -->
+  <message key="plugins.themes.default-child.navigation.current">Número atual</message>
+  <message key="plugins.themes.default-child.navigation.archives">Números anteriores</message>
+  <message key="plugins.themes.default-child.navigation.advance.online">Avançar on-line</message>
+</locale>

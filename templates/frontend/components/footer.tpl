@@ -32,7 +32,7 @@
 						</a>
 					</div>
 					<div id="avance_linea" class="botones_derecha">
-						<a href="#">Avance en línea</a>
+						<a href="#">{translate key="plugins.themes.default-child.navigation.advance.online"}</a>
 					</div>
 				</div>
 				{* Contenido que sólo se muestra estando en la vista article *}

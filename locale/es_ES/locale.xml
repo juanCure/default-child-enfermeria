@@ -18,4 +18,5 @@
   <!-- Navegación -->
   <message key="plugins.themes.default-child.navigation.current">Número actual</message>
   <message key="plugins.themes.default-child.navigation.archives">Números anteriores</message>
+  <message key="plugins.themes.default-child.navigation.advance.online">Avance en línea</message>
 </locale>
