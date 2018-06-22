@@ -80,12 +80,12 @@
 				<!-- Column 2 start -->
         <h3>Menú principal</h3>
         <ul>
-           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/objetivoyalcance">Objetivo y alcance</a></li>
-           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/politicas">Políticas editoriales</a></li>
-           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/envios">Normas para los autores</a></li>
-           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/secciones">Secciones de la revista</a></li>
-           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/about/submissions">Envíos de artículos</a></li>
-           <li><a href="http://132.248.204.69/enfermeria/index.php/enfermeriauniversitaria/codigoetica">Código de ética</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/objetivoyalcance">Objetivo y alcance</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/politicas">Políticas editoriales</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/envios">Normas para los autores</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/secciones">Secciones de la revista</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/about/submissions">Envíos de artículos</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/codigoetica">Código de ética</a></li>
         </ul>
         <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
         <h3>Índices</h3>
