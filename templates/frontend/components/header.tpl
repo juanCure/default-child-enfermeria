@@ -41,7 +41,7 @@
 
 				<div id="headerElements" class="pkp_site_name_wrapper">
 					<h1>Enfermería</h1>
-          <h2>universitaria</h2>
+          <h2>Universitaria</h2>
           <img id="unam" src="{$baseUrl}/plugins/themes/default-child/images/unam.png" alt="">
           <img id="eneo" src="{$baseUrl}/plugins/themes/default-child/images/eneo.png" alt="">
 				</div><!-- .pkp_site_name_wrapper-->
@@ -78,7 +78,7 @@
 		<div class="pkp_structure_content{if $hasSidebar} has_sidebar{/if}">
 			<div id="sidebar_right">
 				<!-- Column 2 start -->
-        <h3>Menú principal</h3>
+        <h3>{translate key="plugins.themes.default-child.content.mainmenu"}</h3>
         <ul>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/objetivoyalcance">Objetivo y alcance</a></li>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/politicas">Políticas editoriales</a></li>
@@ -88,7 +88,7 @@
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/codigoetica">Código de ética</a></li>
         </ul>
         <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
-        <h3>Índices</h3>
+        <h3>{translate key="plugins.themes.default-child.content.index"}</h3>
         <div id="content_indexada">
         	<a href="#" class="indexadores"></a>
         	<a href="#" class="indexadores"></a>
