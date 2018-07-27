@@ -19,4 +19,6 @@
   <message key="plugins.themes.default-child.navigation.current">Número atual</message>
   <message key="plugins.themes.default-child.navigation.archives">Números anteriores</message>
   <message key="plugins.themes.default-child.navigation.advance.online">Avançar on-line</message>
+  <message key="plugins.themes.default-child.content.mainmenu">Menú Principal</message>
+  <message key="plugins.themes.default-child.content.index">Incluída en</message>
 </locale>

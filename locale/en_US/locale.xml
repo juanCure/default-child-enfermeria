@@ -19,4 +19,6 @@
   <message key="plugins.themes.default-child.navigation.current">Current issue</message>
   <message key="plugins.themes.default-child.navigation.archives">Previous issues</message>
   <message key="plugins.themes.default-child.navigation.advance.online">Advance online</message>
+  <message key="plugins.themes.default-child.content.mainmenu">Main menu</message>
+  <message key="plugins.themes.default-child.content.index">Included in</message>
 </locale>
