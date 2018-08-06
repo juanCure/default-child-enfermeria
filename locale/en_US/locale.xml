@@ -21,4 +21,11 @@
   <message key="plugins.themes.default-child.navigation.advance.online">Advance online</message>
   <message key="plugins.themes.default-child.content.mainmenu">Main menu</message>
   <message key="plugins.themes.default-child.content.index">Included in</message>
+  <!-- Left sidebar -->
+  <message key="plugins.themes.default-child.sidebar.left.objetive">Objective and Scope</message>
+  <message key="plugins.themes.default-child.sidebar.left.politics">Editorial Policies</message>
+  <message key="plugins.themes.default-child.sidebar.left.rules">Guidelines Authors</message>
+  <message key="plugins.themes.default-child.sidebar.left.sections">Journal Sections</message>
+  <message key="plugins.themes.default-child.sidebar.left.sending">Article Submissions</message>
+  <message key="plugins.themes.default-child.sidebar.left.ethic">Ethical Principles</message>
 </locale>

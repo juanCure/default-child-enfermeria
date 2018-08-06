@@ -80,12 +80,12 @@
 				<!-- Column 2 start -->
         <h3>{translate key="plugins.themes.default-child.content.mainmenu"}</h3>
         <ul>
-           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/objetivoyalcance">Objetivo y alcance</a></li>
-           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/politicas">Políticas editoriales</a></li>
-           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/envios">Normas para los autores</a></li>
-           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/secciones">Secciones de la revista</a></li>
-           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/about/submissions">Envíos de artículos</a></li>
-           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/codigoetica">Código de ética</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/objetivoyalcance">{translate key="plugins.themes.default-child.sidebar.left.objetive"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/politicas">{translate key="plugins.themes.default-child.sidebar.left.politics"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/envios">{translate key="plugins.themes.default-child.sidebar.left.rules"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/secciones">{translate key="plugins.themes.default-child.sidebar.left.sections"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/about/submissions">{translate key="plugins.themes.default-child.sidebar.left.sending"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/codigoetica">{translate key="plugins.themes.default-child.sidebar.left.ethic"}</a></li>
         </ul>
         <img id="cc" src="{$baseUrl}/plugins/themes/default-child/images/cc.jpg" alt="">
         <h3>{translate key="plugins.themes.default-child.content.index"}</h3>
@@ -100,26 +100,6 @@
         	<a href="#" class="indexadores"></a>
         	<a href="#" class="indexadores"></a>
         	<a href="#" class="indexadores"></a>
-        	<!-- <div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div>
-        	<div class="indexadores">
-        	</div> -->
         </div>
         <!-- Column 2 end -->
 			</div>
