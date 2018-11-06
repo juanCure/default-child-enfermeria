@@ -34,9 +34,11 @@
 
 		{* Header *}
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
-      <video autoplay muted loop id="myVideo">
-        <source src="{$baseUrl}/plugins/themes/default-child/video/video.mp4" type="video/mp4">
-      </video>
+		<div id="video_container">
+			<video autoplay muted loop id="myVideo">
+				<source src="{$baseUrl}/plugins/themes/default-child/video/video.mp4" type="video/mp4">
+			</video>
+		</div>
 			<div class="pkp_head_wrapper">
 
 				<div id="headerElements" class="pkp_site_name_wrapper">
