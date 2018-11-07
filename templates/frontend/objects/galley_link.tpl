@@ -68,6 +68,8 @@
 		{$galleyLabel|replace:'Español (España)':'Español'}
 	{elseif $galley->getLocale() == "pt_BR"}
 		{$galleyLabel|replace:'Português (Brasil)':'Português'}
+	{else}
+		{$galleyLabel}
 	{/if}
 
 	{if $restricted && $purchaseFee && $purchaseCurrency}
