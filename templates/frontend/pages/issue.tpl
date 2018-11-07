@@ -26,9 +26,11 @@
 	{else}
 		{include file="frontend/components/breadcrumbs_issue.tpl" currentTitle=$issueIdentification}
 		<div class="current_issue">
-			<h2>
-				{translate key="journal.currentIssue"}
-			</h2>
+				{if $issue->_data.current == "1"}
+					<h2>
+						{translate key="journal.currentIssue"}
+					</h2>
+				{/if}
 			<div class="current_issue_title">
 				{$issue->getIssueIdentification()|strip_unsafe_html}
 			</div>
