@@ -24,7 +24,13 @@
 		</li>
 		<li class="current">
 			<h1>
-				{translate key="plugins.themes.default-child.navigation.archives"}
+				{if $requestedPage == 'issue' && $requestedOp == 'archive'}
+					{translate key="plugins.themes.default-child.navigation.archives"}
+				{elseif $currentTitleKey}
+					{translate key=$currentTitleKey}
+				{else}
+					{$currentTitle|escape}
+				{/if}
 			</h1>
 		</li>
 	</ol>
