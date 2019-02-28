@@ -85,6 +85,8 @@
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/objetivoyalcance">{translate key="plugins.themes.default-child.sidebar.left.objetive"}</a></li>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/politicas">{translate key="plugins.themes.default-child.sidebar.left.politics"}</a></li>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/envios">{translate key="plugins.themes.default-child.sidebar.left.rules"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/materialautores">{translate key="plugins.themes.default-child.sidebar.left.material"}</a></li>
+           <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/guiasevaluacion">{translate key="plugins.themes.default-child.sidebar.left.guides"}</a></li>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/secciones">{translate key="plugins.themes.default-child.sidebar.left.sections"}</a></li>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/about/submissions">{translate key="plugins.themes.default-child.sidebar.left.sending"}</a></li>
            <li><a href="{$baseUrl}/index.php/enfermeriauniversitaria/codigoetica">{translate key="plugins.themes.default-child.sidebar.left.ethic"}</a></li>

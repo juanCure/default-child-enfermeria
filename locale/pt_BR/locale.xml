@@ -22,10 +22,12 @@
   <message key="plugins.themes.default-child.content.mainmenu">Menú Principal</message>
   <message key="plugins.themes.default-child.content.index">Incluída en</message>
   <!-- Left sidebar -->
-  <message key="plugins.themes.default-child.sidebar.left.objetive">Objetivo y alcance</message>
-  <message key="plugins.themes.default-child.sidebar.left.politics">Políticas Editoriales</message>
-  <message key="plugins.themes.default-child.sidebar.left.rules">Normas para autores</message>
-  <message key="plugins.themes.default-child.sidebar.left.sections">Secciones de la revista</message>
-  <message key="plugins.themes.default-child.sidebar.left.sending">Envío de artículos</message>
-  <message key="plugins.themes.default-child.sidebar.left.ethic">Código de Ética</message>
+  <message key="plugins.themes.default-child.sidebar.left.objetive">Objetivo e alcance</message>
+  <message key="plugins.themes.default-child.sidebar.left.politics">Políticas editoriais</message>
+  <message key="plugins.themes.default-child.sidebar.left.rules">Regulamentações para autores</message>
+  <message key="plugins.themes.default-child.sidebar.left.material">Material para autores</message>
+  <message key="plugins.themes.default-child.sidebar.left.guides">Guias de avaliação</message>
+  <message key="plugins.themes.default-child.sidebar.left.sections">Secções da revista</message>
+  <message key="plugins.themes.default-child.sidebar.left.sending">Condições para submissão</message>
+  <message key="plugins.themes.default-child.sidebar.left.ethic">Código de ética</message>
 </locale>

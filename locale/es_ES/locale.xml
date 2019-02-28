@@ -25,6 +25,8 @@
   <message key="plugins.themes.default-child.sidebar.left.objetive">Objetivo y alcance</message>
   <message key="plugins.themes.default-child.sidebar.left.politics">Políticas Editoriales</message>
   <message key="plugins.themes.default-child.sidebar.left.rules">Normas para autores</message>
+  <message key="plugins.themes.default-child.sidebar.left.material">Material para autores</message>
+  <message key="plugins.themes.default-child.sidebar.left.guides">Guías de evaluación</message>
   <message key="plugins.themes.default-child.sidebar.left.sections">Secciones de la revista</message>
   <message key="plugins.themes.default-child.sidebar.left.sending">Envío de artículos</message>
   <message key="plugins.themes.default-child.sidebar.left.ethic">Código de Ética</message>
